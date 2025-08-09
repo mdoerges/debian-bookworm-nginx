@@ -1,4 +1,4 @@
-ROM debian:bookworm-slim
+FROM debian:bookworm-slim
 
 RUN apt-get update
 RUN apt-get -y upgrade
